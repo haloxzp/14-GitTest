@@ -14,6 +14,7 @@
 		E15B7CDE1BE7499E00ABB739 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15B7CDD1BE7499E00ABB739 /* Images.xcassets */; };
 		E15B7CE11BE7499E00ABB739 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15B7CDF1BE7499E00ABB739 /* LaunchScreen.xib */; };
 		E15B7CED1BE7499E00ABB739 /* _4_GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15B7CEC1BE7499E00ABB739 /* _4_GitTestTests.m */; };
+		E15B7CF81BE74B4100ABB739 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E15B7CF71BE74B4100ABB739 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E15B7CE61BE7499E00ABB739 /* 14-GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "14-GitTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15B7CEB1BE7499E00ABB739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15B7CEC1BE7499E00ABB739 /* _4_GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_GitTestTests.m; sourceTree = "<group>"; };
+		E15B7CF61BE74B4100ABB739 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E15B7CF71BE74B4100ABB739 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				E15B7CDD1BE7499E00ABB739 /* Images.xcassets */,
 				E15B7CDF1BE7499E00ABB739 /* LaunchScreen.xib */,
 				E15B7CD01BE7499D00ABB739 /* Supporting Files */,
+				E15B7CF61BE74B4100ABB739 /* Test.h */,
+				E15B7CF71BE74B4100ABB739 /* Test.m */,
 			);
 			path = "14-GitTest";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E15B7CD91BE7499E00ABB739 /* ViewController.m in Sources */,
+				E15B7CF81BE74B4100ABB739 /* Test.m in Sources */,
 				E15B7CD61BE7499E00ABB739 /* AppDelegate.m in Sources */,
 				E15B7CD31BE7499E00ABB739 /* main.m in Sources */,
 			);
